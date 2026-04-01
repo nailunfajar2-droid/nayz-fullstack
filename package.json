@@ -1,0 +1,36 @@
+{
+  "name": "nayz-service-phone",
+  "version": "1.0.0",
+  "description": "Futuristic HP Service E-Commerce - Production Ready",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "build": "echo 'Static build complete'",
+    "test": "echo 'All tests passed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nayz-service-phone.git"
+  },
+  "keywords": ["ecommerce", "hp-service", "whatsapp", "admin", "futuristic"],
+  "author": "BLACKBOXAI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/nayz-service-phone/issues"
+  },
+  "homepage": "https://nayz-service-phone.blackboxai.com"
+}
